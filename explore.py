@@ -40,12 +40,10 @@ while True:
             sys.exit()
 
     # a circle that moves: draw, delay, erase, move
+    # FYI we'll learn a better animation technique soon
     pygame.draw.circle(screen, (255,0,255), (x, y), rad)
     pygame.display.update()
     pygame.time.delay(100)
-
-    # erase and move
-    # FYI we'll learn a better animation technique soon
     pygame.draw.circle(screen, (255,255,255), (x,y), rad)
     x += 1
     y += 1
