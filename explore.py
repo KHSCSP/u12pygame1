@@ -28,7 +28,6 @@ x = 100
 y = 200
 rad = 20
 pygame.draw.circle(screen, (0,0,255), (x, y), rad)
-pygame.time.delay(500)
 
 
 x = 150
@@ -40,9 +39,13 @@ while True:
             pygame.quit()
             sys.exit()
 
+    # a circle that moves: draw, delay, erase, move
     pygame.draw.circle(screen, (255,0,255), (x, y), rad)
     pygame.display.update()
     pygame.time.delay(100)
+
+    # erase and move
+    # FYI we'll learn a better animation technique soon
     pygame.draw.circle(screen, (255,255,255), (x,y), rad)
     x += 1
     y += 1
