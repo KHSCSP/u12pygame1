@@ -12,6 +12,7 @@ y1 = 50
 x2 = 100
 y2 = 100
 pygame.draw.line(screen, (255,0,0), (x1, y1), (x2, y2))
+pygame.display.update()
 pygame.time.delay(500)
 
 
@@ -21,6 +22,7 @@ y1 = 100
 width = 100
 height = 50
 pygame.draw.rect(screen, (0,255,0), (x1, y1, width, height))
+pygame.display.update()
 pygame.time.delay(500)
 
 # a circle
@@ -28,6 +30,7 @@ x = 100
 y = 200
 rad = 20
 pygame.draw.circle(screen, (0,0,255), (x, y), rad)
+pygame.display.update()
 
 
 x = 150
