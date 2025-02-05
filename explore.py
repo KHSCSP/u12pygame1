@@ -47,6 +47,9 @@ while True:
     pygame.draw.circle(screen, (255,0,255), (x, y), rad)
     pygame.display.update()
     pygame.time.delay(100)
+
+    # what is this part doing?
     pygame.draw.circle(screen, (255,255,255), (x,y), rad)
+    
     x += 1
     y += 1
