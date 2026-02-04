@@ -6,7 +6,9 @@ screen = pygame.display.set_mode((400, 300))
 pygame.display.set_caption('Hello World!')
 screen.fill((255, 255, 255))
 
-# TODO draw a triangle
+# TODO draw a triangle using 3 lines
+
+# TODO draw another triangle using .polygon()
 
 # TODO square with circle inside
 
